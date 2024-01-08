@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "splashedvd",
+  "version": "${version}",
+  "name": "splashedvd",
+  "description": "make the splash text bounce around like the DVD logo",
+  "authors": [
+    "sylvxa"
+  ],
+  "contact": {
+    "website": "blahaj.mom",
+    "repo": "https://github.com/sylvxa/splashedvd"
+  },
+  "license": "MIT",
+  "icon": "assets/splashedvd/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "splashedvd.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
